@@ -1,0 +1,101 @@
+Start_Location,Destination_Location,Speed,Vehicle_Type,Driver_Age,Gender,Accident_Severity
+Delhi New Delhi,Tamil Nadu Chennai,113,Truck,25,Male,Severe
+Karnataka Bangalore,Uttar Pradesh Varanasi,48,Bike,39,Female,Slight
+Maharashtra Pune,Delhi New Delhi,119,Car,33,Male,Severe
+Delhi Dwarka,Maharashtra Mumbai,76,Bus,34,Female,No Accident
+Delhi New Delhi,Maharashtra Nagpur,51,Truck,19,Male,Severe
+West Bengal Howrah,Maharashtra Pune,60,Car,42,Female,No Accident
+Telangana Hyderabad,Tamil Nadu Coimbatore,66,Car,19,Male,No Accident
+Uttar Pradesh Lucknow,Karnataka Bangalore,54,Bus,54,Female,Slight
+Uttar Pradesh Lucknow,West Bengal Durgapur,97,Bus,47,Male,Severe
+West Bengal Durgapur,Karnataka Mangalore,79,Bus,48,Female,No Accident
+Uttar Pradesh Lucknow,Delhi Rohini,45,Truck,32,Male,No Accident
+Uttar Pradesh Varanasi,Delhi Dwarka,62,Bike,57,Female,Severe
+Telangana Warangal,Karnataka Bangalore,66,Truck,33,Male,No Accident
+Maharashtra Mumbai,Uttar Pradesh Varanasi,36,Bus,22,Female,Slight
+Delhi Rohini,Delhi Rohini,62,Truck,43,Male,No Accident
+Uttar Pradesh Kanpur,Tamil Nadu Chennai,76,Car,37,Female,Severe
+Maharashtra Mumbai,Karnataka Mangalore,65,Bus,41,Male,Severe
+Maharashtra Pune,Maharashtra Nagpur,65,Bus,47,Female,Slight
+West Bengal Durgapur,Maharashtra Mumbai,97,Bike,65,Male,No Accident
+West Bengal Kolkata,Telangana Warangal,30,Bus,48,Female,No Accident
+Tamil Nadu Chennai,Tamil Nadu Chennai,102,Car,38,Male,No Accident
+Maharashtra Pune,Uttar Pradesh Kanpur,33,Truck,68,Female,Severe
+West Bengal Kolkata,Maharashtra Nagpur,95,Bus,19,Male,Severe
+Tamil Nadu Chennai,West Bengal Durgapur,90,Truck,25,Female,No Accident
+Tamil Nadu Chennai,Tamil Nadu Coimbatore,45,Bike,63,Male,Slight
+Telangana Hyderabad,Karnataka Mysore,45,Truck,37,Female,No Accident
+West Bengal Durgapur,Uttar Pradesh Lucknow,114,Car,23,Male,Severe
+Maharashtra Nagpur,Telangana Nizamabad,88,Bike,65,Female,Severe
+Maharashtra Nagpur,Maharashtra Mumbai,82,Bike,57,Male,No Accident
+Delhi Dwarka,Uttar Pradesh Lucknow,115,Car,21,Female,No Accident
+Telangana Nizamabad,Delhi New Delhi,111,Truck,51,Male,Slight
+Telangana Warangal,Uttar Pradesh Kanpur,98,Car,19,Female,No Accident
+Uttar Pradesh Kanpur,West Bengal Durgapur,30,Car,38,Male,No Accident
+West Bengal Howrah,Uttar Pradesh Lucknow,37,Bike,30,Female,Slight
+Uttar Pradesh Kanpur,Tamil Nadu Madurai,31,Truck,69,Male,Severe
+Maharashtra Nagpur,Telangana Warangal,92,Car,56,Female,Severe
+Delhi New Delhi,Telangana Nizamabad,61,Truck,32,Male,No Accident
+Maharashtra Pune,Uttar Pradesh Lucknow,48,Bike,23,Female,Slight
+Telangana Warangal,Delhi Dwarka,99,Bus,57,Male,Severe
+Tamil Nadu Coimbatore,Delhi New Delhi,118,Bus,61,Female,No Accident
+Maharashtra Nagpur,Tamil Nadu Madurai,62,Bus,40,Male,Severe
+Delhi Rohini,Uttar Pradesh Lucknow,75,Bike,41,Female,No Accident
+Tamil Nadu Coimbatore,Telangana Hyderabad,61,Truck,64,Male,Slight
+Telangana Warangal,Uttar Pradesh Lucknow,72,Bus,33,Female,Slight
+Maharashtra Nagpur,Karnataka Mangalore,49,Bike,51,Male,Severe
+Maharashtra Mumbai,Maharashtra Nagpur,60,Bike,46,Female,No Accident
+Telangana Hyderabad,Uttar Pradesh Kanpur,99,Car,25,Male,No Accident
+Tamil Nadu Madurai,Karnataka Bangalore,81,Bike,19,Female,Slight
+West Bengal Kolkata,Delhi Dwarka,100,Bike,39,Male,Slight
+Telangana Hyderabad,Uttar Pradesh Varanasi,69,Bus,52,Female,Severe
+Karnataka Bangalore,West Bengal Howrah,103,Truck,38,Male,Slight
+Tamil Nadu Madurai,Delhi Dwarka,92,Bike,52,Female,No Accident
+Uttar Pradesh Varanasi,Telangana Nizamabad,100,Bike,62,Male,Severe
+Tamil Nadu Chennai,Maharashtra Pune,79,Bike,29,Female,No Accident
+West Bengal Howrah,Karnataka Mangalore,69,Bus,18,Male,No Accident
+Telangana Hyderabad,Delhi New Delhi,39,Truck,21,Female,No Accident
+Karnataka Mysore,Uttar Pradesh Varanasi,99,Car,67,Male,Severe
+Karnataka Mysore,West Bengal Kolkata,36,Car,31,Female,No Accident
+Telangana Nizamabad,Uttar Pradesh Kanpur,66,Bike,25,Male,Severe
+Maharashtra Nagpur,Tamil Nadu Coimbatore,30,Car,20,Female,Severe
+Telangana Hyderabad,Karnataka Mangalore,52,Truck,38,Male,No Accident
+Delhi Rohini,Telangana Warangal,119,Bus,30,Female,Severe
+Telangana Nizamabad,Maharashtra Mumbai,40,Car,62,Male,Slight
+West Bengal Howrah,Karnataka Mysore,115,Bike,60,Female,Slight
+Telangana Hyderabad,West Bengal Durgapur,81,Bus,49,Male,Slight
+West Bengal Durgapur,Delhi New Delhi,117,Bus,59,Female,Slight
+West Bengal Howrah,Karnataka Bangalore,87,Car,18,Male,Severe
+Karnataka Mangalore,West Bengal Kolkata,47,Car,50,Female,No Accident
+West Bengal Kolkata,Delhi New Delhi,35,Truck,46,Male,No Accident
+Uttar Pradesh Kanpur,Delhi Dwarka,101,Bus,41,Female,Severe
+Maharashtra Pune,Delhi New Delhi,37,Bike,46,Male,No Accident
+Tamil Nadu Coimbatore,Telangana Warangal,112,Car,28,Female,No Accident
+Delhi New Delhi,Tamil Nadu Madurai,51,Truck,22,Male,No Accident
+Tamil Nadu Madurai,Delhi Rohini,92,Car,34,Female,No Accident
+Uttar Pradesh Lucknow,Telangana Nizamabad,84,Bike,57,Male,Severe
+Maharashtra Pune,Telangana Nizamabad,55,Car,24,Female,No Accident
+Uttar Pradesh Varanasi,Maharashtra Pune,44,Bike,45,Male,No Accident
+Maharashtra Mumbai,West Bengal Durgapur,68,Bike,53,Female,No Accident
+Maharashtra Nagpur,Tamil Nadu Chennai,41,Car,41,Male,Severe
+West Bengal Howrah,Tamil Nadu Chennai,89,Truck,55,Female,No Accident
+Telangana Hyderabad,Karnataka Bangalore,33,Bike,44,Male,Slight
+West Bengal Kolkata,Tamil Nadu Coimbatore,94,Bus,36,Female,Slight
+West Bengal Kolkata,Telangana Warangal,61,Bike,31,Male,Severe
+Tamil Nadu Madurai,Telangana Nizamabad,110,Bike,28,Female,No Accident
+Tamil Nadu Madurai,Tamil Nadu Coimbatore,96,Bike,51,Male,No Accident
+Karnataka Bangalore,West Bengal Durgapur,37,Bus,40,Female,Severe
+Maharashtra Pune,Delhi Dwarka,35,Truck,47,Male,Severe
+West Bengal Durgapur,Uttar Pradesh Varanasi,62,Bus,47,Female,No Accident
+Tamil Nadu Chennai,Telangana Nizamabad,83,Car,68,Male,No Accident
+Tamil Nadu Madurai,Karnataka Mangalore,102,Truck,67,Female,Severe
+Karnataka Bangalore,Uttar Pradesh Varanasi,74,Bus,49,Male,Slight
+Delhi Dwarka,Maharashtra Nagpur,119,Car,44,Female,No Accident
+West Bengal Kolkata,Uttar Pradesh Kanpur,76,Bike,55,Male,Severe
+Maharashtra Nagpur,Karnataka Mysore,33,Car,28,Female,No Accident
+Uttar Pradesh Kanpur,Telangana Nizamabad,89,Bus,32,Male,Severe
+Maharashtra Mumbai,Karnataka Bangalore,63,Bike,59,Female,No Accident
+Telangana Warangal,Maharashtra Pune,98,Truck,37,Male,Severe
+West Bengal Durgapur,Delhi New Delhi,46,Car,43,Female,No Accident
+Tamil Nadu Chennai,Maharashtra Nagpur,98,Bike,38,Male,Severe
+Telangana Nizamabad,Tamil Nadu Coimbatore,84,Truck,64,Female,Severe

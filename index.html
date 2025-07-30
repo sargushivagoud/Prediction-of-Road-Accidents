@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Accident Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Road Accident Predictor</h1>
+            <p>Enter your trip details to predict accident risk</p>
+        </header>
+        <form method="POST" class="form-container">
+            <div class="form-group">
+                <label for="start_location">Start Location:</label>
+                <select name="start_location" id="start_location" required>
+                    <option value="" selected disabled>Select</option>
+                    {% for location in locations %}
+                        <option value="{{ location }}">{{ location }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="destination_location">Destination Location:</label>
+                <select name="destination_location" id="destination_location" required>
+                    <option value="" selected disabled>Select</option>
+                    {% for location in locations %}
+                        <option value="{{ location }}">{{ location }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="speed">Speed (km/h):</label>
+                <input type="number" name="speed" id="speed" min="20" max="120" required placeholder="e.g., 100">
+            </div>
+            <div class="form-group">
+                <label for="vehicle_type">Vehicle Type:</label>
+                <select name="vehicle_type" id="vehicle_type" required>
+                    <option value="Car" selected>Car</option>
+                    <option value="Truck">Truck</option>
+                    <option value="Bike">Bike</option>
+                    <option value="Bus">Bus</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="driver_age">Driver Age:</label>
+                <input type="number" name="driver_age" id="driver_age" min="18" max="80" required placeholder="e.g., 25">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <button type="submit" class="predict-btn">Predict Accident Risk</button>
+        </form>
+        {% if prediction %}
+            <div class="result-container" id="result">
+                <h2>Prediction: 
+                    <span class="prediction-text" 
+                          style="color: {% if prediction == 'No Accident' %}#2ecc71{% elif prediction == 'Slight Chance' %}#f1c40f{% else %}#e74c3c{% endif %}">
+                        {{ prediction }}
+                    </span>
+                </h2>
+                <p class="precautions">Precautions: {{ precautions }}</p>
+            </div>
+            <script>
+                // Auto-scroll to result section after prediction
+                document.addEventListener('DOMContentLoaded', function() {
+                    const result = document.getElementById('result');
+                    if (result) {
+                        result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                });
+            </script>
+        {% endif %}
+    </div>
+</body>
+</html>
